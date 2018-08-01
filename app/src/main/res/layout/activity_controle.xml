@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtMensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtStatus"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/btnParaBaixo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/botao_para_baixo"
+        app:srcCompat="@mipmap/botao_para_baixo" />
+
+    <ImageButton
+        android:id="@+id/btnParaCima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnParaBaixo"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/botao_para_cima"
+        app:srcCompat="@mipmap/botao_para_cima" />
+
+    <ImageView
+        android:id="@+id/imgTouchPad"
+        android:layout_width="wrap_content"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        app:srcCompat="@drawable/mousepad" />
+
+    <ImageButton
+        android:id="@+id/btnEsquerdo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnParaCima"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/botao_esquerdo"
+        app:srcCompat="@drawable/botao_esquerdo" />
+
+    <ImageButton
+        android:id="@+id/btnDireito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnParaCima"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/botao_direito"
+        app:srcCompat="@drawable/botao_direito" />
+
+    <ImageButton
+        android:id="@+id/btnEsc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:drawable/btn_dialog"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+</RelativeLayout>

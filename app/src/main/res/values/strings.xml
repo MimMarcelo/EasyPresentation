@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Easy Presentation</string>
+    <string name="ok">Ok</string>
+    <string name="ligar_bluetooth">Ligar Bluetooth</string>
+    <string name="ficar_visivel">Ficar Visível</string>
+    <string name="pesquisar_computadores">Pesquisar por Computadores</string>
+    <string name="seu_dispositivo_nao_possui_bluetooth">Seu dispositivo não possui bluetooth</string>
+    <string name="bluetooth_desligado">Bluetooth desligado</string>
+    <string name="bluetooth_ligado">Bluetooth ligado</string>
+    <string name="desligar_bluetooth">Desligar Bluetooth</string>
+    <string name="solicitando_ativacao_do_bluetooth">Solicitando ativação do bluetooth</string>
+    <string name="seu_dispositivo_nao_pode_ser_encontrado_por_outros">Seu dispositivo não pode ser encontrado por outros dispositivos</string>
+    <string name="aguardando_conexao">Aguardando conexão...</string>
+    <string name="erro_na_conexao">Erro na conexão</string>
+    <string name="conectado">Conectado</string>
+    <string name="o_easy_presentation_nao_funciona_sem_a_permissao_de_acesso">O Easy Presentation não funciona corretamente sem a permissão de acesso Bluetooth</string>
+    <string name="botao_para_cima">Botão para cima</string>
+    <string name="botao_para_baixo">Botão para baixo</string>
+</resources>
